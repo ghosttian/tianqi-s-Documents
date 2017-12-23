@@ -1,0 +1,36 @@
+{
+    "json_version": "0.1.0.0",
+    "resource": {
+    },
+    "timeline": {
+        "type": "circular",
+        "cycle_length": "2000",
+        "stages": [
+                   ]
+    },
+    "actions": {
+        "video_actions": [
+                          {
+                          "name": "BeautyAction",
+                          "id": "1",
+                          "brightness": "1.1",
+                          "animation": {
+                          "smooth_degree": [
+                                         {
+                                         "keys": [
+                                                  0,
+                                                  1000,
+                                                  2000
+                                                  ],
+                                         "values": [
+                                                    1.0,
+                                                    0.0,
+                                                    1.0
+                                                    ]
+                                         }
+                                         ]
+                          }
+                          }
+                          ]
+    }
+}
